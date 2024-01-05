@@ -1,0 +1,22 @@
+package problem26;
+
+public class Solution {
+    public int removeDuplicates(int[] nums) {
+        int i = 0, j = 1;
+        while(j < nums.length){
+            if(nums[i] == nums[j]){
+                j++;
+            }
+            else {
+                i++;
+                nums[i] = nums[j];
+            }
+        }
+//        for (int k = 0; k <= i; k++){
+//            System.out.print(nums[k] + "\t");
+//        }
+//        System.out.println();
+        return i + 1;
+    }
+}
+
