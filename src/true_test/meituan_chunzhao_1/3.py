@@ -18,7 +18,7 @@ def count(a, i, n):
     return res        
 
 
-if __name__ == "__main__":
+def test_current():
     line = sys.stdin.readline()
     tmp = line.split()
     n = int(tmp[0])
@@ -31,3 +31,41 @@ if __name__ == "__main__":
             print(0)
         else:
             print(count(a, i, n))
+
+
+def io():
+    line = sys.stdin.readline()
+    tmp = line.split()
+    n = int(tmp[0])
+    a = []
+    for i in range(n):
+        tmp = list(sys.stdin.readline())[:-1]
+        a.append(tmp)
+    return n, a    
+
+
+def fupan(n, a):
+    sum_matrix = []
+    sum_matrix.append([0]*(n+1))
+    for i in range(1, n+1):
+        line = [0]
+        for j in range(1, n+1):
+            line.append(sum_matrix[i-1][j]+line[j-1]+int(a[i-1][j-1])-sum_matrix[i-1][j-1])
+        sum_matrix.append(line)
+    for jie in range(1, n+1):
+        if jie % 2 == 1:
+            print(0)
+        else:
+            count = 0
+            for i in range(jie, n+1):
+                for j in range(jie, n+1):
+                    value = sum_matrix[i][j]+sum_matrix[i-jie][j-jie]-sum_matrix[i][j-jie]-sum_matrix[i-jie][j]
+                    if value == jie*jie/2:
+                        count+=1
+            print(count)
+
+
+if __name__ == "__main__":
+    # fupan(4,[['1','0','1','0'],['0','1','0','1'],['1','1','0','0'],['0','0','1','1']])
+    n, a = io()
+    fupan(n,a)
