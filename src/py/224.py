@@ -16,11 +16,9 @@ class Solution(object):
                 i += 1
             elif s[i] == '+':
                 now_sign = stack[-1]
-                array.append(',-' if now_sign == -1 else ',+')
                 i += 1
             elif s[i] == '-':
                 now_sign = -stack[-1]
-                array.append(',-' if now_sign == -1 else ',+')
                 i += 1
             else:
                 tmp = 0
