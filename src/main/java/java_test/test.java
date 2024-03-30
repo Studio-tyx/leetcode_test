@@ -17,12 +17,7 @@ class tmp{
 }
 public class test {
     public static void main(String[] args) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
-        pq.add(3);
-        pq.add(2);
-        pq.add(4);
-        System.out.println(pq.poll());
-        System.out.println(pq.element());
-        System.out.println(pq.element());
+        System.out.println(3<<2l-1);
+        System.out.println(3<<2l);
     }
 }

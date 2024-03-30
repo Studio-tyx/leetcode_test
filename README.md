@@ -10,3 +10,7 @@ problem11:这个题的双指针移动条件还挺难想的:
 + 找左板和右板中比较小的一个板去往里缩。因为如果缩小板的话，里面还有可能会找到稍大一点的板；缩大板的话，一定不可能增加面积。
 
 problem15:三数之和，老老实实双指针就行
+
+problem3:说说是滑动窗口，我怎么感觉更像双指针
+
+problem438:杀我！救命，下次多看一眼[这个](https://leetcode.cn/problems/find-all-anagrams-in-a-string/solutions/9749/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/?envType=study-plan-v2&envId=top-100-liked)
