@@ -11,6 +11,6 @@ problem11:这个题的双指针移动条件还挺难想的:
 
 problem15:三数之和，老老实实双指针就行
 
-problem3:说说是滑动窗口，我怎么感觉更像双指针
+problem3&problem438:滑动窗口杀我！但是如果真的想到是滑动窗口又很模板化，可以看[这个](https://leetcode.cn/problems/find-all-anagrams-in-a-string/solutions/9749/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/?envType=study-plan-v2&envId=top-100-liked)
 
-problem438:杀我！救命，下次多看一眼[这个](https://leetcode.cn/problems/find-all-anagrams-in-a-string/solutions/9749/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/?envType=study-plan-v2&envId=top-100-liked)
+problem560:前缀和很容易想，但是用哈希表优化不太容易想
