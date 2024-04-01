@@ -1,9 +1,6 @@
 package java_test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.*;
 
 class tmp{
     public int value;
@@ -17,7 +14,10 @@ class tmp{
 }
 public class test {
     public static void main(String[] args) {
-        System.out.println(3<<2l-1);
-        System.out.println(3<<2l);
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(1, 2);
+        map.put(2, 2);
+        map.put(2, 3);
+        System.out.println(map);
     }
 }
