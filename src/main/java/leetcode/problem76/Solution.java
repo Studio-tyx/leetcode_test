@@ -1,7 +1,6 @@
 package leetcode.problem76;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Solution {
     public String minWindow(String s, String t) {
