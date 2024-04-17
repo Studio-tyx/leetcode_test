@@ -18,3 +18,5 @@ problem560:前缀和很容易想，但是用哈希表优化不太容易想
 problem239:deque单调队列
 
 problem41:感觉不太容易想得到[思路](https://leetcode.cn/problems/first-missing-positive/solutions/304743/que-shi-de-di-yi-ge-zheng-shu-by-leetcode-solution/?envType=study-plan-v2&envId=top-100-liked)
+
+problem141:环形追击问题，其实快慢指针一定会相遇，不用管时间复杂度的问题
