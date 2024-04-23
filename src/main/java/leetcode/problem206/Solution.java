@@ -52,4 +52,16 @@ public class Solution {
         }
         return front;
     }
+    public ListNode reverseList2(ListNode head){
+        if (head == null) return head;
+        ListNode cur = head;
+        ListNode front = new ListNode(-1, cur);
+        while(cur != null){
+            ListNode next = cur.next;
+            cur.next = front;
+            front = cur;
+            cur = next;
+        }
+        return cur.next;
+    }
 }
