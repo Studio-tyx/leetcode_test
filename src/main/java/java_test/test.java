@@ -12,12 +12,16 @@ class tmp{
         return this.value == obj.value;
     }
 }
+
+class test_thread extends Thread{
+    public void run() {
+        System.out.println("Thread is running");
+    }
+
+}
 public class test {
     public static void main(String[] args) {
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(1, 2);
-        map.put(2, 2);
-        map.put(2, 3);
-        System.out.println(map);
+        test_thread t = new test_thread();
+        t.start();
     }
 }
