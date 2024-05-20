@@ -25,4 +25,6 @@ problem200:dfs有空的时候还是要再去好好[学习](https://leetcode.cn/p
 
 problem98:编码是不难的，主要是递归的判断条件有点难想，我一直以为是keep最大最小值往上递归的，没想到可以keep边界往下递归
 
+problem207:不用递归也太难写了！
+
 可以参考[这个](https://zhuanlan.zhihu.com/p/349940945)
