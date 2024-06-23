@@ -27,4 +27,10 @@ problem98:编码是不难的，主要是递归的判断条件有点难想，我�
 
 problem207:不用递归也太难写了！
 
+problem152:dp但是没有最优子结构，需要自己好好分析
+
+problem5:dp+双指针的综合
+
+problem72:思路很重要，有空可以回来自己再做一遍
+
 可以参考[这个](https://zhuanlan.zhihu.com/p/349940945)
