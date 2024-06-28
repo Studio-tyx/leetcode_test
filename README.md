@@ -33,4 +33,8 @@ problem5:dp+双指针的综合
 
 problem72:思路很重要，有空可以回来自己再做一遍
 
+problem136:位运算NB
+
+problem75:看不懂一点，估计不会考
+
 可以参考[这个](https://zhuanlan.zhihu.com/p/349940945)
