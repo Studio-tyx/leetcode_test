@@ -1,5 +1,6 @@
 package java_test;
 
+import java.util.zip.*;
 import java.util.*;
 
 class tmp{
@@ -21,7 +22,11 @@ class test_thread extends Thread{
 }
 public class test {
     public static void main(String[] args) {
-        test_thread t = new test_thread();
-        t.start();
+//        test_thread t = new test_thread();
+//        t.start();
+        String in = "1234";
+        for(int i = 0; i < in.length(); i++){
+            System.out.println(Integer.parseInt(String.valueOf(in.charAt(i))));
+        }
     }
 }
